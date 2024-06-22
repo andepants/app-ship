@@ -1,15 +1,16 @@
 import { Text, View } from "react-native";
+import AnimatedIntro from "@/components/AnimatedIntro";
+import BottomLoginSheet from "@/components/BottomLoginSheet";
 
 export default function Index() {
-  return (
+return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <AnimatedIntro />
+      <BottomLoginSheet />
     </View>
   );
 }
