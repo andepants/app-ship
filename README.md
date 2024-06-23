@@ -18,7 +18,7 @@ A React Native Expo Boiler Plate.
 - TypeScript
 - React Native (Expo)
 - Firebase (Authentication)
-  - Emaiil
+  - Email
 
 
 
